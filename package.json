@@ -1,0 +1,23 @@
+{
+  "name": "smart-inventory-and-asset-management-system",
+  "version": "1.0.0",
+  "description": "Smart Inventory and Asset Management System for managing laboratory equipment and institutional assets in a college/institution.",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/server.js",
+    "seed": "npm run seed --prefix backend",
+    "backend": "npm start --prefix backend",
+    "backend:dev": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "frontend:build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "mern",
+    "inventory-management",
+    "asset-tracking",
+    "qr-code",
+    "college-project"
+  ],
+  "author": "Individual College Project",
+  "license": "ISC"
+}
